@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "928035662221",
+    "project_id": "my-whastapp",
+    "storage_bucket": "my-whastapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928035662221:android:f7207da61cc860218975c4",
+        "android_client_info": {
+          "package_name": "com.example.mywhastapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928035662221-h6kghdl6bn1eqtltbbl0rsi8blk6m4t4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIBBP5evCfxHqnkMOAmTxN5AmlBtMWjP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928035662221-h6kghdl6bn1eqtltbbl0rsi8blk6m4t4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

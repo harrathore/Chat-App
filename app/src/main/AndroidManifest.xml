@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mywhastapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_icons8_whatsapp"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_icons8_whatsapp"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyWhastapp">
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GroupChatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChatDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SigninActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignupActivity"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+        </activity>
+    </application>
+
+</manifest>

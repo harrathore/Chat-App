@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/grayBackground"
+    android:orientation="vertical"
+    tools:context=".SignupActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="82dp"
+            android:layout_height="109dp"
+            app:srcCompat="@drawable/ic_icons8_whatsapp"
+            android:layout_marginTop="100dp"/>
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="Enter Your Name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/etEmail_su"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="Enter Your Email"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/etPassword_su"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="Enter Your Password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/tv_account_su"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="8dp"
+            android:gravity="right"
+            android:text="Already Have Account" />
+
+        <Button
+            android:id="@+id/btn_signUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#18914F"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="15dp"
+            android:text="Sign Up"
+            app:cornerRadius="4dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            >
+
+            <Button
+                android:id="@+id/btn_gSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:drawableLeft="@drawable/ic_icons8_google"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="15dp"
+                android:text="Google"
+                android:textColor="#000000"
+                app:cornerRadius="4dp" />
+
+            <Button
+                android:id="@+id/btn_fSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1"
+                android:backgroundTint="#2F3AFF"
+                android:drawableLeft="@drawable/ic_facebook"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="15dp"
+                android:text="facebook"
+                android:textColor="#CFD8DC"
+                app:cornerRadius="4dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_signup_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Sign Up with phone"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

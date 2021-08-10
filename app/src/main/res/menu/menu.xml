@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/option_menu">
+    <item
+        android:id="@+id/logout"
+        android:title="Log out"/>
+    <item
+        android:id="@+id/crGroup"
+        android:title="Create Group"/>
+    <item
+        android:id="@+id/setting"
+        android:title="Settings"/>
+
+</menu>
